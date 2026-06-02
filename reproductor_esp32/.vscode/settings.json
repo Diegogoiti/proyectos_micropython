@@ -1,0 +1,13 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    
+    // Rutas de búsqueda adicionales para autocompletado y análisis
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/.micropython/stubs"
+    ],
+
+    // Indica a Pylance dónde residen los archivos de tipos (.pyi)
+    "python.analysis.stubPath": "${userHome}/.local/share/micropython/stubs",
+
+    
+}
