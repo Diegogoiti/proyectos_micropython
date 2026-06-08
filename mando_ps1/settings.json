@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/.micropython/stubs"
+    ],
+    "python.analysis.stubPath": "${userHome}/.local/share/micropython/stubs",
+    "python.analysis.autoImportCompletions": true
+}
